@@ -1,6 +1,7 @@
 import { 
   // useEffect, 
-  useState 
+  useState,
+  useCallback 
 } from "react";
 import axios from "axios";
 import Header from "../../components/header/Header";
@@ -23,7 +24,7 @@ const Home = () => {
 
   const url = `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
 
-  const getData = async () => {
+  const getData = useCallback(async () => {
     if (!query) { // Boş arama/veri çekme yapılmasını engelle.
       alert('Please enter a food item');
       return; 
@@ -40,7 +41,7 @@ const Home = () => {
     } catch (error) {
       console.log(error);
     }
-  };
+  }, [query, url, EDAMAM_ACCOUNT_USER]);
 
   // useEffect(() => { // Test amaçlı, ilk yüklenmede veri gelsin diye açtık.
   //   getData();
