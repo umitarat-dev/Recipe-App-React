@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Deployment-Netlify-00C7B7?logo=netlify&logoColor=white" />
 </p>
 
-<h1 align="center">📌 Recipe App Raect  </h1>
+<h1 align="center">📌 Recipe App React  </h1>
 
 <p align="center">
 A dynamic Recipe Search application powered by the Edamam API. Built with React, this project features real-time data fetching based on user queries and dietary preferences. It implements secure API key management using environment variables, asynchronous state handling with Axios, and a responsive grid layout for displaying detailed recipe information, providing a seamless culinary discovery experience.
@@ -21,7 +21,7 @@ A dynamic Recipe Search application powered by the Edamam API. Built with React,
       🖥️ Live Demo
     </a>
      | 
-    <a href="https://github.com/Umit8098/React-Project-Recipe-App.git">
+    <a href="https://github.com/umitarat-dev/Recipe-App-React.git">
       📂 Repository
     </a>
   </h3>
@@ -167,10 +167,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com/), [Nod
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/React-Project-Recipe-App.git
+$ git clone https://github.com/umitarat-dev/Recipe-App-React.git
 
 # Navigate into the project folder
-$ cd React-Project-Recipe-App
+$ cd Recipe-App-React
 
 # Install dependencies
 $ yarn  
