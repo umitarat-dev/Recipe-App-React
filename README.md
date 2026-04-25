@@ -11,7 +11,7 @@
 <h1 align="center">📌 Recipe App React  </h1>
 
 <p align="center">
-A dynamic Recipe Search application powered by the Edamam API. Built with React, this project features real-time data fetching based on user queries and dietary preferences. It implements secure API key management using environment variables, asynchronous state handling with Axios, and a responsive grid layout for displaying detailed recipe information, providing a seamless culinary discovery experience.
+A high-performance Recipe Discovery engine built with React, leveraging the Edamam API for real-time culinary data. This application features a decoupled architecture, secure API key management via Vercel environment variables, and advanced asynchronous state handling with Axios. It implements protected routes, persistent session storage, and a responsive UI using Styled Components to provide a premium user experience.
 </p>
 
 
