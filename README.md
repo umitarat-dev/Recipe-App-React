@@ -17,7 +17,7 @@ A high-performance Recipe Discovery engine built with React, leveraging the Edam
 
 <div align="center">
   <h3>
-    <a href="https://recipe-app-umitdev.netlify.app/">
+    <a href="https://recipe-app-react-umitdev.vercel.app/">
       🖥️ Live Demo
     </a>
      | 
@@ -28,7 +28,9 @@ A high-performance Recipe Discovery engine built with React, leveraging the Edam
 </div>
 
 <p align="center">
-  <img src="./img/recipe-app.gif" alt="React Recipe App" width="700"/>
+  <a href="https://recipe-app-react-umitdev.vercel.app/">
+    <img src="./img/recipe-app.gif" alt="React Recipe App" width="700"/>
+  </a>
 </p>
 
 ## Navigation
@@ -215,9 +217,3 @@ I am always open to discussing new projects, creative ideas, or opportunities to
 * **LinkedIn:** [linkedin.com/in/umit-arat](https://www.linkedin.com/in/umit-arat/)
 * **Email:** [umitarat8098@gmail.com](mailto:umitarat8098@gmail.com)
 * **GitHub:** [github.com/umitarat-dev](https://github.com/umitarat-dev) (Current Workspace)
-
-
-
-      <h2>📌 Recipe App React - MultiPage (Edamam API)</h2>
-      <p>Advanced Recipe Search application integrated with Edamam API. Features secure environment configuration on Vercel, asynchronous data fetching, and modular Styled Components architecture.
-      </p>
