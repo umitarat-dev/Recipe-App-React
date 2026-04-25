@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <Nav justify="space-between" wrap="wrap">
+    <Nav $justify="space-between" $wrap="wrap">
       <Logo to="/">
         <i>{'<UmitDev/>'}</i>
         <span>Recipe</span>
@@ -23,7 +23,7 @@ const Navbar = () => {
         <GiHamburgerMenu/>
       </Hamburger>
       
-      <Menu isOpen={isOpen} onClick={() => setIsOpen(false)}>
+      <Menu $isOpen={isOpen} onClick={() => setIsOpen(false)}>
         <MenuLink to='/'>Home</MenuLink>
         <MenuLink to='/about'>About</MenuLink>
         <MenuLink to='/register'>Register</MenuLink>
@@ -33,4 +33,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

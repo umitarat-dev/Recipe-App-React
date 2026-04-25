@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ImgDiv = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: ${({ $justify }) => $justify || "center"};
   margin: 1.5rem;
 `;
 

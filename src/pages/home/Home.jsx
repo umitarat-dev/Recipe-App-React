@@ -12,8 +12,8 @@ import homeSvg from '../../assets/home.svg';
 
 const Home = () => {
 
-  const mealType = ['Breakfast', 'Launch', 'Dinner', 'Snack']
-  const [query, setQuery] = useState([]);
+  const mealType = ['Breakfast', 'Lunch', 'Dinner', 'Snack']
+  const [query, setQuery] = useState("");
   const [selectedMeal, setSelectedMeal] = useState(mealType[0]);
   // const [recipes, setRecipes] = useState('');
   const [recipes, setRecipes] = useState(null);
