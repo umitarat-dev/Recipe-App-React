@@ -41,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.10.21",
+    "browserslist": "^4.28.2",
+    "caniuse-lite": "^1.0.30001790"
   }
 }
