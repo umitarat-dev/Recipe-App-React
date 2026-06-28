@@ -35,8 +35,8 @@ const Login = () => {
         <Header>{'UmitDev Recipe'}</Header>
 
         <StyledForm onSubmit={handleSubmit}>
-          <StyledInput type='text' placeholder='username' required/>
-          <StyledInput type='password' placeholder='password' required/>
+          <StyledInput type='text' placeholder='username-dummy' required/>
+          <StyledInput type='password' placeholder='password-dummy' required/>
           <StyledButton type='submit'>Login</StyledButton>
         </StyledForm>
 
